@@ -1,0 +1,6 @@
+c:\users\student\documents\visual studio 2015\Projects\Basketball\Basketball\bin\Debug\Basketball.exe.config
+c:\users\student\documents\visual studio 2015\Projects\Basketball\Basketball\bin\Debug\Basketball.exe
+c:\users\student\documents\visual studio 2015\Projects\Basketball\Basketball\bin\Debug\Basketball.pdb
+c:\users\student\documents\visual studio 2015\Projects\Basketball\Basketball\obj\Debug\Basketball.csprojResolveAssemblyReference.cache
+c:\users\student\documents\visual studio 2015\Projects\Basketball\Basketball\obj\Debug\Basketball.exe
+c:\users\student\documents\visual studio 2015\Projects\Basketball\Basketball\obj\Debug\Basketball.pdb
