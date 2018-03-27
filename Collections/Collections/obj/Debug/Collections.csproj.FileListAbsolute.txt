@@ -4,3 +4,6 @@ c:\users\student\documents\visual studio 2015\Projects\Collections\Collections\b
 c:\users\student\documents\visual studio 2015\Projects\Collections\Collections\obj\Debug\Collections.csprojResolveAssemblyReference.cache
 c:\users\student\documents\visual studio 2015\Projects\Collections\Collections\obj\Debug\Collections.exe
 c:\users\student\documents\visual studio 2015\Projects\Collections\Collections\obj\Debug\Collections.pdb
+C:\Users\zaiko\Documents\Visual Studio 2015\labProjects\Collections\Collections\bin\Debug\Collections.exe.config
+C:\Users\zaiko\Documents\Visual Studio 2015\labProjects\Collections\Collections\obj\Debug\Collections.exe
+C:\Users\zaiko\Documents\Visual Studio 2015\labProjects\Collections\Collections\obj\Debug\Collections.pdb

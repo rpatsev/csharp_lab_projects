@@ -28,6 +28,11 @@ namespace MoveStrategy
       Console.WriteLine(
         $"Ellipse trajectory is: {movableObject.Move()}");
 
+      movableObject    
+        .SetComputeStrategy<RoundSurfaceComputer>();
+
+        Console.WriteLine($"Round trajectory is: {movableObject.Move()}");
+
       Console.ReadKey();
     }
   }

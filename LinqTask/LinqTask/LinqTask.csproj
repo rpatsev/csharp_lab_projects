@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{93CDA464-A98D-4407-8D7D-50BE4AD2E39C}</ProjectGuid>
+    <ProjectGuid>{F7DFFE04-CD95-4D7D-A171-F4B0C6A78228}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MoveStrategy</RootNamespace>
-    <AssemblyName>MoveStrategy</AssemblyName>
+    <RootNamespace>LinqTask</RootNamespace>
+    <AssemblyName>LinqTask</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Strategies\SquareMoveStrategy.cs" />
-    <Compile Include="SurfaceComputers\EllipseSurfaceComputer.cs" />
-    <Compile Include="SurfaceComputers\ICanComputeZ.cs" />
-    <Compile Include="Strategies\IMoveStrategy.cs" />
-    <Compile Include="MovableObject.cs" />
-    <Compile Include="Points\DoublePoint.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Strategies\RectangleMoveStrategy.cs" />
-    <Compile Include="SurfaceComputers\CosineSurfaceComputer.cs" />
-    <Compile Include="SurfaceComputers\RoundSurfaceComputer.cs" />
-    <Compile Include="SurfaceComputers\SineSurfaceComputer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
