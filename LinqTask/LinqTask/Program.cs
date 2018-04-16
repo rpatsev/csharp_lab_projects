@@ -51,8 +51,10 @@ namespace LinqTask
             Console.WriteLine("2) " + string.Join(",", data.OfType<Film>().SelectMany(film => film.Actors).Select(actor => actor.Name).Distinct().ToArray()));
             Console.WriteLine("3) " + data.OfType<Film>().SelectMany(film => film.Actors).Where(actor => actor.Birthdate.Month == 8).Select(actor=>actor).Count());
             Console.WriteLine("4) " + string.Join(",", data.OfType<Film>().SelectMany(film => film.Actors).OrderBy(actor => actor.Birthdate.Year).Take(2).Select(actor => actor.Name).ToArray()));
+            Console.WriteLine("5) " + string.Join(",", data.OfType<Book>().GroupBy(_ => ((Book)_).Author).Select(_=> new { AuthorName = _.Key, CountOfBooks = _.Count() }).ToList()));
 
             Console.WriteLine("10) " + data.OfType<Book>().Select(_=>_.Pages).Sum());
+            //Console.WriteLine("12) " + string.Join(",", data.OfType<Actor>().Select(_ => (_ as Film).Actors.Where(_ => _.Name == "Matt Damon")).ToList());
         }
     }
 }
