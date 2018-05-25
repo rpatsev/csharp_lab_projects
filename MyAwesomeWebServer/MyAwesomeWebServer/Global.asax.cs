@@ -1,4 +1,5 @@
-﻿using System.Web.Http;
+﻿using System.Threading;
+using System.Web.Http;
 
 namespace MyAwesomeWebServer
 {
@@ -6,6 +7,7 @@ namespace MyAwesomeWebServer
     {
         protected void Application_Start()
         {
+           // ThreadPool.SetMaxThreads(1,1);
             GlobalConfiguration.Configure(WebApiConfig.Register);
         }
     }
